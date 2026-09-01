@@ -1,0 +1,17 @@
+{
+  "id": "census-acs-homepage-probe",
+  "source_id": "census-acs",
+  "version": 1,
+  "description": "Illustrative recipe demonstrating the acquisition-recipe format against the census-acs source's homepage. This is a scaffolding example for mission DATA-CORE-001, not a vetted production data pull -- see the census-acs source's terms_of_use_notes.",
+  "steps": [
+    {
+      "type": "http_get",
+      "url": "https://www.census.gov/programs-surveys/acs",
+      "output_relpath": "census-acs/homepage.html",
+      "expected_content_type": "text/html"
+    }
+  ],
+  "checksum_algorithm": "sha256",
+  "retry_max_attempts": 3,
+  "notes": "Fetches the source homepage only, as a reproducibility smoke test of the runner/fetcher pipeline. A real ACS data-pull recipe (specific dataset, table, and API endpoint) is future work once the API terms and endpoint shape are confirmed."
+}
