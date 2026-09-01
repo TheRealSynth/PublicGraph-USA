@@ -4,10 +4,10 @@
   "lease_id": "fbb95fe1-a480-478a-9111-666d50e9f2ca",
   "worker": "claude-seat-2",
   "target_repo": "TheRealSynth/PublicGraph-USA",
-  "base_sha": null,
-  "base_ref": null,
+  "base_sha": "0d47e9e5fa93c2bbf63904091d0e19a5ccb5cbbc",
+  "base_ref": "main",
   "branch": "claude/claude-seat-2/data-core-001",
-  "final_sha": "PENDING",
+  "final_sha": "0f08ab93ee97f7b82eb263764792858acd9a7795",
   "state": "DONE_PENDING_MERGE",
   "benchmark_id": "DATA-B1",
   "benchmark_progress": "Directly implements the benchmark's 'Source registry and provenance core is reproducible, with acquisition recipes plus field-level source assertions, provenance, and confidence' description: a schema-validated source registry (publicgraph.registry), versioned/reproducible acquisition recipes executed by a retrying runner against an injectable Fetcher (publicgraph.recipes/runner/fetchers), and field-level provenance with numeric confidence and conflict detection (publicgraph.provenance). Bulk data expansion has not started -- only illustrative, explicitly-not-production-vetted example data is bundled, per the benchmark's 'before bulk data expansion' ordering.",
@@ -62,8 +62,8 @@
     "tests/test_validation.py",
     ".agent-results/DATA-CORE-001.json"
   ],
-  "pr_number": null,
-  "pr_url": null,
+  "pr_number": 1,
+  "pr_url": "https://github.com/TheRealSynth/PublicGraph-USA/pull/1",
   "proposed_follow_ups": [
     "A root-scoped mission should add README.md, a dependency manifest (requirements.txt or pyproject.toml), .gitignore, and CI wiring to run pytest on every push/PR.",
     "Once a dependency manifest exists, reassess whether to adopt jsonschema (more feature-complete than publicgraph/validation.py) and/or YAML for data files.",
@@ -73,5 +73,5 @@
   "owner_approvals_still_required": [
     "None of this mission's changes touch an owner_gate (no production deploy, DNS, billing, money movement, destructive migration, credential rotation, claim/outreach, signature, or contract acceptance). Per docs/PORTFOLIO_DASHBOARD.md in the control repo, this project's priority note says to 'continue national public-data normalization after CRS acquisition patterns stabilize' -- that is a portfolio-sequencing note, not a blocker on this already-claimed, already-in-owns_paths mission, but the owner may want to confirm before a follow-up mission proceeds to real data acquisition."
   ],
-  "completed_at": "PENDING"
+  "completed_at": "2026-09-01T00:39:24.000Z"
 }
