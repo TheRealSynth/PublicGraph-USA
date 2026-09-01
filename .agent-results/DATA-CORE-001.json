@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "mission_id": "DATA-CORE-001",
+  "lease_id": "fbb95fe1-a480-478a-9111-666d50e9f2ca",
+  "worker": "claude-seat-2",
+  "target_repo": "TheRealSynth/PublicGraph-USA",
+  "state": "IN_PROGRESS",
+  "note": "Execution started; repository was empty at mission start (no commits, no branches, no base_sha/base_ref available). Initializing repository structure as part of this mission."
+}
