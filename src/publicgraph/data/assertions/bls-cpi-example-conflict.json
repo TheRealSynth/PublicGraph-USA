@@ -1,0 +1,10 @@
+{
+  "entity_id": "example-entity:demo-state",
+  "field_name": "population_estimate",
+  "value": 1050000,
+  "source_id": "bls-cpi",
+  "method": "manual_entry",
+  "confidence": 0.3,
+  "observed_at": "2026-09-01T00:00:00+00:00",
+  "notes": "Synthetic example value (not real BLS data) added by mission DATA-CORE-001. Deliberately asserts a different value than census-acs-example.json for the same entity/field, to exercise the conflict-detection path in publicgraph.provenance.find_conflicts. This core deliberately does not auto-resolve such conflicts; see docs/ARCHITECTURE.md."
+}

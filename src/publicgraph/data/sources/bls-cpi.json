@@ -1,0 +1,13 @@
+{
+  "id": "bls-cpi",
+  "name": "Consumer Price Index (CPI)",
+  "agency": "U.S. Bureau of Labor Statistics",
+  "homepage_url": "https://www.bls.gov/cpi/",
+  "license": "U.S. Government Work (public domain in the United States, 17 U.S.C. § 105)",
+  "access_method": "http_api",
+  "formats": ["json", "csv", "xlsx"],
+  "update_cadence": "monthly",
+  "terms_of_use_notes": "BLS data is a U.S. government work and public domain domestically. The BLS Public Data API has its own registration, rate-limit, and attribution guidance that must be confirmed before any production acquisition recipe is run against it.",
+  "added_at": "2026-09-01",
+  "notes": "Illustrative registry entry added by mission DATA-CORE-001 to exercise the source registry schema end to end. Not yet vetted for a production acquisition recipe."
+}

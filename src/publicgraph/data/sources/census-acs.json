@@ -1,0 +1,13 @@
+{
+  "id": "census-acs",
+  "name": "American Community Survey (ACS)",
+  "agency": "U.S. Census Bureau",
+  "homepage_url": "https://www.census.gov/programs-surveys/acs",
+  "license": "U.S. Government Work (public domain in the United States, 17 U.S.C. § 105)",
+  "access_method": "http_api",
+  "formats": ["json", "csv"],
+  "update_cadence": "annual",
+  "terms_of_use_notes": "General Census Bureau data is a U.S. government work and public domain domestically. Verify per-dataset terms and any embedded third-party content before redistribution; Census API usage is also subject to the Census Bureau's API terms of service and rate limits, which must be confirmed before any production acquisition recipe is run against it.",
+  "added_at": "2026-09-01",
+  "notes": "Illustrative registry entry added by mission DATA-CORE-001 to exercise the source registry schema end to end. Not yet vetted for a production acquisition recipe."
+}
